@@ -209,3 +209,60 @@ html {
   height: 440px;
   object-fit: cover;
 }
+
+@media all and (max-width: 500px) {
+  .header__h1 {
+    font-size: 3.2rem;
+  }
+  .header__prg {
+    font-size: 1rem;
+  }
+
+  .header__button {
+    width: 120px;
+    height: 31px;
+    font-size: 1rem;
+  }
+
+  .images {
+    display: block;
+  }
+  .images > * {
+    width: 100%;
+    height: auto;
+  }
+
+  /* footer */
+  .footer {
+    display: block;
+  }
+
+  .footer__sidebar1 {
+    display: block;
+
+    background-color: #0c6645;
+    color: #fff;
+    line-height: normal;
+  }
+
+  .footer-category {
+    display: block;
+    margin-left: 4em;
+  }
+
+  .footer--modifier {
+    margin-left: 3em;
+  }
+
+  .link-hr-footer {
+    width: 95px;
+    border-top: 0.1px solid #fff;
+    margin: 0.2em 3em;
+  }
+
+  .footer__sidebar2--imgModifier {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
