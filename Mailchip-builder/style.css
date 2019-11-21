@@ -3,6 +3,7 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   font-family: Georgia, "Times New Roman", Times, serif;
+  overflow-x: hidden;
 }
 *,
 *:before,
@@ -26,11 +27,12 @@ html {
   margin-top: 3.5rem;
   width: 185px;
   height: 56px;
+
 }
 
 .header__h1 {
   margin-right: 0;
-  margin-left: 36rem;
+  align-self: center;
 
   color: #241c15;
   font-size: 2.8rem;
@@ -50,7 +52,7 @@ html {
   border: 0;
   text-transform: uppercase;
   align-self: center;
-  margin: -4.4rem 0 0 23rem;
+  margin: -4.4rem 0 0 -4rem;
 }
 
 .content {
@@ -60,8 +62,8 @@ html {
 }
 
 .content__img {
-  width: 35.25em;
-  height: 35.25em;
+  width: 40%;
+  height: auto;
   align-self: center;
 }
 
@@ -101,14 +103,13 @@ html {
 
 .footer {
   margin-top: 1.8em;
-  width: 1119.2px;
-  height: 393.6px;
-  margin-left: 17rem;
+  width: 100%;
+  height: auto;
   background: #ffe01b;
   color: #222222;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+ 
 }
 
 .footer__imageLogo {
@@ -165,8 +166,8 @@ html {
   cursor: pointer;
 }
 .footer__storeImg {
-  width: 120px;
-  height: 37.89px;
+  width: 7.5em;
+  height: 2.368125em;
 }
 
 .footer__parag {
@@ -182,4 +183,52 @@ html {
 .footer__googleInc {
   display: flex;
   justify-content: center;
+}
+
+@media all and (max-width:800px){
+    .header__button {
+        color: #fff;
+        background-color: #f15f28;
+        width: 75px;
+        height: 24px;
+        border-radius: 8%;
+        border: 0;
+        text-transform: uppercase;
+        align-self: center;
+        margin: -2.4rem 380px 0 0;
+      }
+}
+
+@media screen and (max-width:600px){
+    .content__button {
+        font-weight: bold;
+        letter-spacing: normal;
+        line-height: 100%;
+       
+        padding: 15px;
+        color: #fff;
+        background-color: #007c89;
+        border: 0;
+        width: 100.8px;
+        height: 44.8px;
+        border-radius: 5%;
+       margin-left:0;
+        cursor: pointer;
+        
+      }
+      
+}
+
+@media all and (max-width:462px){
+    .header__button {
+        color: #fff;
+        background-color: #f15f28;
+        width: 75px;
+        height: 24px;
+        border-radius: 8%;
+        border: 0;
+        text-transform: uppercase;
+        align-self: center;
+        margin: -2.4rem 0 0 -110px;
+      }
 }
