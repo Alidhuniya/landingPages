@@ -1,0 +1,146 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  font-size: 15px;
+  background-color: #8c7ae6;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+}
+.heading__h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+.rows {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.row {
+  width: 476px;
+  height: 355px;
+  border: 1px solid yellow;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.row1__h2 {
+  border-bottom: 1px solid #434343;
+  color: #434343;
+  padding: 15px 0;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container2__prg {
+  color: #902f59;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1.7rem;
+}
+.container2__prg2,
+.container2__prg3 {
+  margin-top: 1rem;
+}
+.container2__span1 {
+  color: #902f59;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.fa-star {
+  color: #902f59;
+}
+
+.footer {
+  display: flex;
+  margin-top: 2.9rem;
+  border-top: 1px solid #434343;
+}
+
+.elements__prg {
+  margin-bottom: 0;
+  text-align: left;
+  line-height: 44px !important;
+  font-size: 20px;
+  padding-left: 15px;
+  color: #0c4da2;
+}
+.button {
+  margin-left: 14rem;
+  margin-top: 0.7rem;
+}
+.button__ele {
+  border: none;
+  border-radius: 5%;
+  bottom: 0;
+  background-color: #0c4da2;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+@media all and (max-width: 1467px) {
+  .rows {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .footer {
+    display: flex;
+    margin-top: 2.9rem;
+    border-top: 1px solid #434343;
+  }
+
+  .elements__prg {
+    margin-bottom: 0;
+    margin-left: 2rem;
+    line-height: 44px !important;
+    font-size: 15px;
+    padding-left: 40px;
+    color: #0c4da2;
+  }
+  .button {
+    margin-left: 1.5rem;
+    margin-top: 0.7rem;
+  }
+  .button__ele {
+    border: none;
+    border-radius: 5%;
+    bottom: 0;
+    background-color: #0c4da2;
+    color: #fff;
+    padding: 10px 15px;
+  }
+}
