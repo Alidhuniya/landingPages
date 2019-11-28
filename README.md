@@ -1,7 +1,8 @@
 # landingPages
-## Landing Pages for Marketing 
+## Collection of Landing Pages
 ## Click below links too see live view
 
+### [freePhotography-ebook-desktop_view](https://alidhuniya.github.io/landingPages/freePhotography-ebook/)
 ### [comingSoon-offer](https://alidhuniya.github.io/landingPages/comingSoon-offer/)
 ### [comingSoon](https://alidhuniya.github.io/landingPages/comingSoon/)
 ### [subisu-plansComparision](https://alidhuniya.github.io/landingPages/subisu-plansComparision/)
