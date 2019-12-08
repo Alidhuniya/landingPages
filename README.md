@@ -2,6 +2,7 @@
 ## Collection of Landing Pages
 ## Click below links too see live view
 
+### [Sonycamera-productPage](https://alidhuniya.github.io/landingPages/Sonycamera-productPage/)
 ### [Authorbook-branding](https://alidhuniya.github.io/landingPages/Authorbook-branding/)
 ### [emailSignup](https://alidhuniya.github.io/landingPages/emailSignup/)
 ### [freePhotography-ebook-desktop_view](https://alidhuniya.github.io/landingPages/freePhotography-ebook/)
